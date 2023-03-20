@@ -1,0 +1,233 @@
+
+.login_box {
+
+    width: 70%;
+    height: 90%;
+    
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    
+    background: #200122;  
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  
+background: linear-gradient(to right, #6f0000, #200122); 
+
+    border-radius: 10px;
+    
+    box-shadow: 3px 5px 8px black;
+    overflow: hidden;
+    
+    
+    }
+    
+     div.signup_box_img {
+
+        width: 60%;
+        height: 100vh;
+        top: 0%;
+        
+        position:absolute;
+       
+        left: 40%;
+        
+       background-image: url("../images/login.jpeg");
+       background-size: cover;
+
+        
+
+
+
+
+
+     
+     -moz-box-shadow: 10px 10px 5px #ccc;
+        -webkit-box-shadow: 10px 10px 5px #ccc;
+        box-shadow: 10px 10px 5px #ccc;
+        -moz-border-radius:25px;
+        -webkit-border-radius:25px;
+        border-radius:25px;
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+        border-radius: 10px;
+        border-top-left-radius: 0%;
+        
+        box-shadow: 3px 5px 8px black;
+        
+        
+        
+        }
+        
+    
+        
+
+ form #username{
+
+    position: absolute;
+    top: 30%;
+    left: 5%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+
+
+}
+
+
+
+form #emailbox{
+width: 350px;
+height: 40px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+     border-style: none;
+     outline: none;
+     border-radius: 5px;
+
+
+
+}
+
+form #passlabel{
+
+    position: absolute;
+    top: 45%;
+    left: 5%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+
+
+}
+form #repasslabel{
+
+    position: absolute;
+    top: 60%;
+    left: 5%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+
+
+}
+
+
+form #loginlabel{
+
+
+
+margin: 0%;
+padding: 0%;
+position: absolute;
+top: 1%;
+left: 4%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+text-shadow: 0px,5px,5px rgb(94, 200, 165);
+
+font-weight: bold;
+cursor: pointer;
+font-size: 52px;
+  background: -webkit-linear-gradient( #ff4b1f,#1fddff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+
+}
+
+
+
+
+
+
+form #passwordbox{
+    width: 350px;
+    height: 40px;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-size: 20px;
+         border-style: none;
+         outline: none;
+         border-radius: 5px;
+    }
+   
+
+    form button{
+        width: 150px;
+        height: 40px;
+            position: absolute;
+            top: 60%;
+            left: 13%;
+             font-size: 15px;
+             border-style: none;
+             outline: none;
+             border-radius: 5px;
+             background-color: rgb(208, 18, 50);
+        
+                transition:  0.5s;
+        
+        }
+        form #forgotpass{
+              text-decoration: none;
+              color: papayawhip;
+              position: absolute;
+              top:67%;
+              left: 5%;
+
+
+             transition: 1s;
+
+        }
+        form #forgotpass:hover{
+            
+                transform: scale(1.2);
+      }
+     
+
+      form #Newuser{
+        text-decoration: none;
+        color: papayawhip;
+        position: absolute;
+        top:73%;
+        left: 5%;
+
+
+       transition: 1s;
+
+  }
+  form #Newuser:hover{
+      color: papayawhip;
+transform: scale(1.2);
+
+}
+
+
+
+
+        form button:hover{
+                        
+            opacity: 0.7px;
+                 transform: scale(1.1);
+            
+            }
+    
+    
+
+
+
