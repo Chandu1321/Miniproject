@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up
+    
+    </title>
+    <link rel="stylesheet" href="./css/Signup.css">
+</head>
+<body style="background: #ff6e7f;  
+background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f); 
+background: linear-gradient(to right, #bfe9ff, #ff6e7f); 
+">
+    
+<div class="signup_box">
+    <form action="" method="post">
+
+        <label for="Signup" id="signuplabel"><h1>Signup</h1></label>
+
+    <label  id="username" for="">Username:</label>
+    <input type="email" placeholder="enter email" id="emailbox" name="emailbox" required>
+  <label id="passlabel" for="">Password:</label>
+    <input type="password" placeholder="enter password" id="passwordbox" name="passwordbox" required>
+<label id="repasslabel" for="">Confirm Password:</label>
+           <label for="text" id="err"></label>
+     <input type="password" placeholder="Re enter password" id="repasswordbox" name="repasswordbox" required>
+    <br>
+    <button id="button1" onclick="checkingra()" > Submit</button>
+
+
+
+
+
+</form>
+
+     
+    <div class="signup_box_img"> 
+
+       
+</div>
+
+
+
+
+
+
+</div>
+
+<script>
+ function checkingra(){
+
+let password1 = document.getElementById("passwordbox");
+let password2 = document.getElementById("repasswordbox");
+let button=document.getElementById("button1");
+
+
+let error = document.getElementById("err");
+if(password1.value == password2.value) {
+   
+  error.innerHTML = "Passwords matched succesfully";
+   error.style.color= "green";
+   
+
+} else {
+  error.innerHTML = "password doesn't matched!";
+  error.style.color= "red";
+   
+
+}
+}
+
+</script>
+    
+</body>
+</html>
